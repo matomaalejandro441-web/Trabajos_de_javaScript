@@ -35,10 +35,25 @@ console.log('');
 console.log('DETALLES');
 console.log('--------------------');
 
-console.log('Valor principal:    ', 500000); // meta de inversión
+// meta de inversión
+const investmentGoal = 500000;
 
-// cálculo automático
-console.log('Valor calculado:    ', 500000 * 0.20); // retorno estimado 20%
+// retorno estimado 20%
+const estimatedReturn = investmentGoal * 0.20;
+
+// formato moneda
+const formattedGoal = investmentGoal.toLocaleString("en-US", {
+  style: "currency",
+  currency: "USD"
+});
+
+const formattedReturn = estimatedReturn.toLocaleString("en-US", {
+  style: "currency",
+  currency: "USD"
+});
+
+console.log('Valor principal:    ', formattedGoal);
+console.log('Valor calculado:    ', formattedReturn);
 
 console.log('Estado booleano 1:  ', true); // disponible para invertir
 console.log('Estado booleano 2:  ', false); // proyecto finalizado
