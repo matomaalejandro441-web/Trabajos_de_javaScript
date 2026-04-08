@@ -3,6 +3,11 @@
 // Semana 10 — JavaScript ES2023 Bootcamp
 // Dominio: Crowdfunding Inmobiliario — CrowdBrick
 // ============================================
+// INSTRUCCIONES:
+// 1. Reemplaza DOMAIN_NAME y los datos de ejemplo con tu dominio asignado
+// 2. Implementa cada TODO siguiendo las instrucciones de los comentarios
+// 3. Ejecuta con: node 3-proyecto/starter/app.js
+// 4. Valida el checklist del README antes de entregar
 
 "use strict";
 
